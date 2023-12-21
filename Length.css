@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(73, 50, 22);
+}
+h{
+    color: aqua;
+   
+}
+.container{
+    font-size: 30px;
+}
+.cont{
+    font-size: 20%;   
+}
+.innercont{
+    font-size: 4rem;
+}
