@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.parent{
+border: 2px solid white;
+width: 50%;
+height: 35vh;
+position: relative;
+left: 50px;
+top: 50px;
+}
+.child{
+    position: absolute;
+}
+#child1{
+    border: 2px solid blue;
+    width: 15%;
+    color: rgb(2, 135, 251);
+    height: 8vh;
+    background-color: antiquewhite;
+    z-index: 5;
+}
+#child2{
+    border: 2px solid blue;
+    width: 15%;
+    color: rgb(2, 135, 251);
+    height: 8vh;
+    background-color: antiquewhite;
+}
+#child3{
+    border: 2px solid blue;
+    width: 15%;
+    color: rgb(2, 135, 251);
+    height: 8vh;
+    background-color: antiquewhite;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50% );
+}
+#child4{
+    border: 2px solid blue;
+    width: 15%;
+    color: rgb(2, 135, 251);
+    height: 8vh;
+    background-color: antiquewhite;
+}
