@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+
+.cont2{
+    border: 2px solid red;
+    height: 50vh;
+    width: 50%;
+    position: relative;
+    
+}
+.innercont2{
+    border: 2px solid green;
+    width: 20%;
+    height: 10vh;
+    position: absolute;
+    left: 50%;
+    background-color: aqua;
+    bottom: 50px;
+}
